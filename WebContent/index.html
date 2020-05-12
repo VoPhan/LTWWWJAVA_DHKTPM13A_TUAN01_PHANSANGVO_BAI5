@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Bai5</title>
+</head>
+<body>
+ 	<h1>Register</h1>
+ 	<span>${message}</span>
+	<form name="chooseFileForm" method="post" action="chooseFileServlet" enctype = "multipart/form-data">
+		<label> File #1: </label>
+		<input type="file" name = "file1"></br>
+		
+		<label> File #2: </label>
+		<input type="file" name = "file2"></br>
+		
+		<label> File #3: </label>
+		<input type="file" name = "file3"></br>
+		
+		<label> File #4: </label>
+		<input type="file" name = "file4"></br>
+		
+		<label> File #5: </label>
+		<input type="file" name = "file5"></br>
+		</br>
+		<input type="submit" value="Upload">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>
